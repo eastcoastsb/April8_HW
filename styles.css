@@ -36,20 +36,30 @@ nav {
 	height: 50px;
 }
 
-.hiddenAlbum table {
+/*.hiddenAlbum {
 	display: none;
+}*/
+
+.album1 li {
+	display: inline-block;
+	list-style-type: none;
+
 }
 
-.album1 {
+.album2 li {
+	display: inline-block;
+	list-style-type: none;
 
 }
 
-.album2 {
-	
+.album3 li {
+	display: inline-block;
+	list-style-type: none;
+
 }
 
-.album3 {
-	
+.album1, .album2, .album3 {
+	display: none;
 }
 
 .albumPic1 {
@@ -67,16 +77,23 @@ nav {
 	height: 250px;
 }
 
-.albumPic1:hover, .albumPic2:hover, .albumPic3:hover {
+/*.albumPic1:hover, .albumPic2:hover, .albumPic3:hover {
 	width: 350px;
 	height: 350px;
-}
+}*/
 
 .show {
 	display: block;
 }
 
+.zoomedPic {
+	width: 600px;
+	height: 600px;
+}
 
+.albums {
+	
+}
 
 
 

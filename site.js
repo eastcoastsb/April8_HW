@@ -1,40 +1,29 @@
 $(document).ready(function(){
 
-	$(".thumbnail1").click(function(event) {
+	var showAlbum = function() {
 		event.preventDefault();
-		if($(".albumNav").parent().hasClass("hiddenAlbum")) {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-			
-		} else {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-		}
+		var $albumDiv = $("." + $(this).attr("rel"));
 
-	});
+		if ($albumDiv.hasClass("show")) {
+        	return;
+      } else {
+      		$albumDiv.siblings().removeClass("show");
+        	$albumDiv.addClass("show");
+      }
 
-	$(".thumbnail2").click(function(event) {
+
+
+	};
+
+
+$(".albumNav a").click(showAlbum);
+
+	var zoomPic = function() {
 		event.preventDefault();
-		if($(".albumNav").parent().hasClass("hiddenAlbum")) {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-			
-		} else {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-		}
-	});
+		$(this).toggleClass("zoomedPic");
+	};
 
-	$(".thumbnail3").click(function(event) {
-		event.preventDefault();
-		if($(".albumNav").parent().hasClass("hiddenAlbum")) {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-			
-		} else {
-			$(".albumNav").parent().toggleClass("hiddenAlbum");
-		}
-	});
-
-
-
-
-
+$(".albums").on("click", "img", zoomPic);
 
 
 
