@@ -1,0 +1,108 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.albumNav {
+	margin: 50px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.albumNav li {
+	display: inline-block;
+
+}
+
+.thumbnail1 {
+	width: 50px;
+	height: 50px;
+}
+
+.thumbnail2 {
+	width: 50px;
+	height: 50px;
+}
+
+.thumbnail3 {
+	width: 50px;
+	height: 50px;
+}
+
+.hiddenAlbum table {
+	display: none;
+}
+
+.album1 {
+
+}
+
+.album2 {
+	
+}
+
+.album3 {
+	
+}
+
+.albumPic1 {
+	width: 250px;
+	height: 250px;
+}
+
+.albumPic2 {
+	width: 250px;
+	height: 250px;
+}
+
+.albumPic3 {
+	width: 250px;
+	height: 250px;
+}
+
+.albumPic1:hover, .albumPic2:hover, .albumPic3:hover {
+	width: 350px;
+	height: 350px;
+}
+
+.show {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
